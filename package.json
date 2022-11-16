@@ -1,0 +1,18 @@
+{
+  "name": "swimsuit-protocol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "yarn build:nft",
+    "build:nft": "near-sdk-js build src/nft-contract/index.ts build/nft.wasm"
+  },
+  "dependencies": {
+    "near-sdk-js": "0.4.0-5",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
